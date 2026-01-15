@@ -1,0 +1,16 @@
+{
+	"name": "test-monorepo",
+	"version": "0.0.1",
+	"description": "Monorepo",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thisanimus/sqlite-demo.git"
+	},
+	"author": "Andrew Hale",
+	"type": "module",
+	"scripts": {
+		"frontend:dev": "npm run dev -w packages/frontend",
+		"frontend:build": "npm run build -w packages/frontend"
+	},
+	"workspaces": ["packages/*"]
+}
