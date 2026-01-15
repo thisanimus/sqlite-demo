@@ -31,8 +31,5 @@
 	},
 	"overrides": {
 		"vite": "npm:rolldown-vite@7.2.5"
-	},
-	"optionalDependencies": {
-		"@rolldown/binding-linux-x64-gnu": "4.6.1"
 	}
 }
